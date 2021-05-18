@@ -1,0 +1,5 @@
+﻿// Creamos Base de Datos first
+Scaffold-DBContext "Server=JAAM-LAP;Database=SCAUlsa;user=sa;password=red11red" Microsoft.EntityFrameworkCore.Sqlserver -Outputdir Data 
+
+// Modificamos Base de Datos first
+Scaffold-DBContext "Server=JAAM-LAP;Database=SCAUlsa;user=sa;password=red11red" Microsoft.EntityFrameworkCore.Sqlserver -Outputdir Data -force
